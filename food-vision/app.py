@@ -29,20 +29,20 @@ st.set_page_config(page_title="Food Vision",
 
 #### SideBar ####
 
-st.sidebar.title("What's Food Vision ?")
-st.sidebar.write("""
-FoodVision is an end-to-end **CNN Image Classification Model** which identifies the food in your image. 
+# st.sidebar.title("What's Food Vision ?")
+# st.sidebar.write("""
+# FoodVision is an end-to-end **CNN Image Classification Model** which identifies the food in your image. 
 
-It can identify over 100 different food classes
+# It can identify over 100 different food classes
 
-It is based upom a pre-trained Image Classification Model that comes with Keras and then retrained on the infamous **Food101 Dataset**.
+# It is based upom a pre-trained Image Classification Model that comes with Keras and then retrained on the infamous **Food101 Dataset**.
 
-**Accuracy :** **`85%`**
+# **Accuracy :** **`85%`**
 
-**Model :** **`EfficientNetB1`**
+# **Model :** **`EfficientNetB1`**
 
-**Dataset :** **`Food101`**
-""")
+# **Dataset :** **`Food101`**
+# """)
 
 
 #### Main Body ####
